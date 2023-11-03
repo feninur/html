@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Perulangan / LOOPING</title>
+</head>
+<body>
+    <script>
+        var ulangi =  confirm("Apakah anda mau mengulangi?")
+        var counter = 0;
+
+        while(ulangi){
+            var jawab = confirm("Apakah anda mau mengulangi?")
+            counter++;
+            if(jawab == true){
+                ulangi = false;
+            }
+        }
+         
+        document.write("Perulangan sudah dilakukan sebnayak "+ counter +" kali");
+    </script>
+</body>
+</html>
